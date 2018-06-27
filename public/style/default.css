@@ -1,0 +1,145 @@
+body {
+	margin: 8px 8px 0 8px;
+	padding: 0;
+	font: 15px Tahoma, "宋体", sans-serif;
+	color: #333;
+}
+
+p, h1, h2, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body, h1, h2, p {
+	line-height: 1;
+}
+
+a {
+	text-decoration: none;
+	color: #FF009E;
+}
+
+a:hover {
+	color: #B54DFF;
+}
+
+.m_header {
+	border-bottom: 2px solid #ff66c7;
+	margin-bottom: 3px;
+}
+
+.m_header a {
+	display: block;
+}
+
+.m_header img {
+	height: 50px;
+}
+
+.m_list a {
+	display: block;
+	height: 100px;
+	overflow: hidden;
+	color: #333;
+	border-bottom: 1px solid #ff66c7;
+}
+
+.m_list img {
+	float: left;
+	width: 90px;
+	height: 90px;
+	margin: 5px 5px 5px 0;
+}
+
+.m_list h2 {
+	font-size: 16px;
+	padding: 5px 0 3px 0;
+}
+
+.m_list p {
+	line-height: 1.2;
+}
+
+.load_more a {
+	display: block;
+	height: 35px;
+	padding-top: 17px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	border-bottom: 1px solid #ff66c7;
+}
+
+.to_normal {
+	margin: 20px 0 15px 10px;
+	line-height: 1.3;
+}
+
+.count {
+	display: none;
+}
+
+.m_article {
+	padding-bottom: 5px;
+}
+
+.m_article h1 {
+	text-align: center;
+	font-size: 18px;
+	margin: 15px 0 12px 0;
+}
+
+.m_writer {
+	text-align: right;
+	margin: 0 8px 8px 0;
+}
+
+.m_content p {
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+.m_content img {
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+
+.m_tuijian {
+	margin-top: 20px;
+}
+
+.m_more a {
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.m_ban {
+	text-align: center;
+	margin: 25px 0 10px;
+}
+
+.m_ban img {
+	max-width: 100%;
+}
+
+.tag_title h1 {
+	text-align: center;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 1px solid #ff66c7;
+}
+
+.inlink,.inlink:hover {
+	color: #333;
+}
+
+.m_error {
+	margin: 30px 0 30px 30px;
+	line-height: 1.3;
+}
