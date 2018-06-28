@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class ArticleController extends Controller
 {
-    //
+    //12312
     public function index(Request $request){
         $page=empty($request->page)?1:$request->page;
         $page_size=config('default.page_size');
