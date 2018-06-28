@@ -24,13 +24,16 @@ class ArticleController extends Controller
 
     public function read(Request $request){
         $article=ArticleModel::find($request->id);
+        $next_article=ArticleModel::find($request->id-1);
+
         return view('read',[
             'article'=>$article,
+            'next_article'=>$next_article,
         ]);
     }
 
     public function tkl(Request $request){
-        $tkl=TKLModel::where(['itemId'=>$request->itemId])->first();
-        dd($tkl);
+        $tkl=TKLModel::find($request->id);
+        return $tkl->toArray();
     }
 }

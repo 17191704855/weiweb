@@ -7,13 +7,12 @@
     <meta name="applicable-device" content="mobile">
     <title>穿衣打扮</title>
     <link rel="stylesheet" rev="stylesheet" href="style/default.css" type="text/css" media="all" />
-    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.chong4.com.cn/feed.php" />
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png" />
-    <link rel="canonical" href="http://www.chong4.com.cn/" />
+    <link rel="canonical" href="/" />
 </head>
 <body>
 <div class="m_header">
-    <a href="http://www.chong4.com.cn/mobile/" target="_self"><img src="style/logo.gif" alt="穿衣打扮" title="穿衣打扮" /></a>
+    <a href="/" target="_self"><img src="style/logo.gif" alt="穿衣打扮" title="穿衣打扮" /></a>
 </div>
 @foreach($article_list as $k=>$v)
     <div class="m_list">
@@ -35,7 +34,7 @@
 
 
 <div class="to_normal">
-    <a href="http://www.chong4.com.cn/mobile/" target="_self">首页更精彩</a>　微信号 <strong>cydbabc</strong> 求关注
+    <a href="/" target="_self">首页更精彩</a>　微信号 <strong>cydbabc</strong> 求关注
 </div>
 
 <div class="count">

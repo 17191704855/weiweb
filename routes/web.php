@@ -13,5 +13,5 @@
 
 
 Route::get('/read/{id}','ArticleController@read');
-Route::get('/tkl/{itemId}','ArticleController@tkl');
+Route::get('/tkl/{id}','ArticleController@tkl');
 Route::get('/','ArticleController@index');
